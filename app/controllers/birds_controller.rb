@@ -3,4 +3,5 @@ class BirdsController < ApplicationController
     @birds = Bird.all
     render json: @birds
   end
+
 end
